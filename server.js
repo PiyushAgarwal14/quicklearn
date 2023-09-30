@@ -45,7 +45,7 @@ app.post("/send", (req, res) => {
 
     const mail = {
       sender: `${data.name} <${data.email}>`,
-      to: process.env.EMAIL,
+      to: 'examtimertu@gmail.com',
       subject: data.subject,
       text: `${data.name} <${data.email}> \n${data.message}`,
     };
